@@ -2,6 +2,27 @@ import { items, sets } from "./data.js";
 
 const setsContainer = document.getElementById("sets-container");
 const singlesContainer = document.getElementById("singles-container");
+const categoryFilter = document.getElementById("categoryFilter");
+const priceFilter = document.getElementById("priceFilter");
+
+// --- Popola il dropdown delle categorie ---
+const categories = Array.from(new Set(items.map(i => i.category)));
+categories.forEach(cat => {
+  const option = document.createElement("option");
+  option.value = cat;
+  option.textContent = cat;
+  categoryFilter.appendChild(option);
+});
+
+// --- Funzione di render completa con filtri ---
+function renderWishlist() {
+  const selectedCategory = categoryFilter.value;
+  const maxPrice = parseFloat(priceFilter.value) || Infinity;
+
+  // Pulisce i container
+  setsContainer.innerHTML = "";
+  singlesContainer.innerHTML = "";
+
 
 // --- RENDER DEI SET ---
 sets.forEach(set => {
@@ -9,6 +30,15 @@ sets.forEach(set => {
   setDiv.className = "set";
 
   const setItems = set.itemIds.map(id => items.find(i => i.id === id));
+
+  // Filtra item nel set in base ai criteri
+    const filteredItems = setItems.filter(i => 
+      (selectedCategory === "all" || i.category === selectedCategory) &&
+      i.price <= maxPrice
+    );
+
+    if (filteredItems.length === 0) return; // nessun item nel set corrispondente
+
 
   setDiv.innerHTML = `
     <h2>${set.title} (~${setItems.reduce((sum,i)=>sum+i.price,0)} €)</h2>
@@ -35,8 +65,12 @@ sets.forEach(set => {
 // --- RENDER DEGLI ITEM SINGOLI ---
 const itemIdsInSets = sets.flatMap(s => s.itemIds);
 
-const singleItems = items.filter(i => !itemIdsInSets.includes(i.id));
-
+const singleItems = items.filter(i => 
+    !itemIdsInSets.includes(i.id) &&
+    (selectedCategory === "all" || i.category === selectedCategory) &&
+    i.price <= maxPrice
+  );
+  
 singleItems.forEach(i => {
   const itemDiv = document.createElement("div");
   itemDiv.className = "single-item";
@@ -58,3 +92,10 @@ singleItems.forEach(i => {
 
   singlesContainer.appendChild(itemDiv);
 });
+
+// --- Event listeners filtri ---
+categoryFilter.addEventListener("change", renderWishlist);
+priceFilter.addEventListener("input", renderWishlist);
+
+// --- Render iniziale ---
+renderWishlist();
