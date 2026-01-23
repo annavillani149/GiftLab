@@ -18,7 +18,7 @@ sets.forEach(set => {
           ${i.name} ${i.size ? `- Taglia: ${i.size}` : ''} ${i.color ? `- Colore: ${i.color}` : ''}
           <br>
            ${i.links.length === 1 
-            ? `<a href="${i.links[0].url}" target="_blank">Acquista</a>` 
+            ? `<a href="${i.links[0].url}" target="_blank">${i.links[0].label}</a>` 
             : `<table style="margin-top:5px;">
                  ${i.links.map(l => `<tr><td><a href="${l.url}" target="_blank">${l.label}</a></td></tr>`).join('')}
                </table>`}
