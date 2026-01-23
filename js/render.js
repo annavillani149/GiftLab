@@ -46,7 +46,12 @@ singleItems.forEach(i => {
     ${i.size ? `<p>Taglia: ${i.size}</p>` : ''}
     ${i.color ? `<p>Colore: ${i.color}</p>` : ''}
     <p>
-      ${i.links.map(l => `<a href="${l}" target="_blank">Acquista</a>`).join(' | ')}
+      ${i.links.length === 1 
+      ? `<a href="${i.links[0].url}" target="_blank">${i.links[0].label}</a>` 
+      : `<table style="margin-top:5px;">
+      ${i.links.map(l => `<tr><td><a href="${l.url}" target="_blank">${l.label}</a></td></tr>`).join('')}
+     </table>`}
+
     </p>
     ${i.notes ? `<p><small>${i.notes}</small></p>` : ''}
   `;
