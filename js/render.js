@@ -1,7 +1,9 @@
 import { items, sets } from "./data.js";
 
-const container = document.getElementById("sets-container");
+const setsContainer = document.getElementById("sets-container");
+const singlesContainer = document.getElementById("singles-container");
 
+// --- 1️⃣ RENDER DEI SET ---
 sets.forEach(set => {
   const setDiv = document.createElement("div");
   setDiv.className = "set";
@@ -9,12 +11,41 @@ sets.forEach(set => {
   const setItems = set.itemIds.map(id => items.find(i => i.id === id));
 
   setDiv.innerHTML = `
-    <h2>${set.title} (~${setItems.reduce((sum, i) => sum + i.price, 0)} €)</h2>
+    <h2>${set.title} (~${setItems.reduce((sum,i)=>sum+i.price,0)} €)</h2>
     <ul>
-      ${setItems.map(i => `<li>${i.name} - ${i.notes}</li>`).join('')}
+      ${setItems.map(i => `
+        <li>
+          ${i.name} ${i.size ? `- Taglia: ${i.size}` : ''} ${i.color ? `- Colore: ${i.color}` : ''}
+          <br>
+          ${i.links.map(l => `<a href="${l}" target="_blank">Acquista</a>`).join(' | ')}
+          ${i.notes ? `<br><small>${i.notes}</small>` : ''}
+        </li>
+      `).join('')}
     </ul>
     <p>${set.description}</p>
   `;
-  
-  container.appendChild(setDiv);
+
+  setsContainer.appendChild(setDiv);
+});
+
+// --- RENDER DEGLI ITEM SINGOLI ---
+const itemIdsInSets = sets.flatMap(s => s.itemIds);
+
+const singleItems = items.filter(i => !itemIdsInSets.includes(i.id));
+
+singleItems.forEach(i => {
+  const itemDiv = document.createElement("div");
+  itemDiv.className = "single-item";
+
+  itemDiv.innerHTML = `
+    <h3>${i.name} - ${i.price} €</h3>
+    ${i.size ? `<p>Taglia: ${i.size}</p>` : ''}
+    ${i.color ? `<p>Colore: ${i.color}</p>` : ''}
+    <p>
+      ${i.links.map(l => `<a href="${l}" target="_blank">Acquista</a>`).join(' | ')}
+    </p>
+    ${i.notes ? `<p><small>${i.notes}</small></p>` : ''}
+  `;
+
+  singlesContainer.appendChild(itemDiv);
 });
