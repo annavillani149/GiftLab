@@ -1,0 +1,4 @@
+body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
+h1 { color: #333; }
+.set { background: #fff; padding: 10px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+ul { padding-left: 20px; }
