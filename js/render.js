@@ -3,7 +3,7 @@ import { items, sets } from "./data.js";
 const setsContainer = document.getElementById("sets-container");
 const singlesContainer = document.getElementById("singles-container");
 
-// --- 1️⃣ RENDER DEI SET ---
+// --- RENDER DEI SET ---
 sets.forEach(set => {
   const setDiv = document.createElement("div");
   setDiv.className = "set";
