@@ -17,7 +17,7 @@ export const items = [
     links: ["https://www.marlu.it/it/orecchini/2082-31072-orecchino-a-cerchio-ritorto-15-cm.html?_gl=1*yxawkw*_up*MQ..*_ga*MjA0MzMyMDE0NS4xNzY2OTYyNTg5*_ga_8ETQBCRR5Q*czE3NjY5NjI1ODkkbzEkZzEkdDE3NjY5NjI3OTckajYwJGwwJGgw#/160-colore-oro/177-materiale-pvd_oro/5757-taglia-diametro_15_cm"],
     size: null,
     color: "oro",
-    notes "gioiello venduto singolarmente (7€x2)",
+    notes: "gioiello venduto singolarmente (7€x2)",
   }
 ];
 
