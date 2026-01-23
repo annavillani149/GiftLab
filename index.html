@@ -7,6 +7,18 @@
 </head>
 <body>
   <h1>Wishlist</h1>
+
+  <div id="filters">
+    <label for="categoryFilter">Categoria:</label>
+    <select id="categoryFilter">
+      <option value="all">Tutte</option>
+    </select>
+
+    <label for="priceFilter">Prezzo massimo (€):</label>
+    <input type="number" id="priceFilter" min="0" step="1" value="1000">
+  </div>
+
+  <h2>Set Consigliati</h2>
   <div id="sets-container"></div>
 
   <h2>Oggetti singoli</h2>
