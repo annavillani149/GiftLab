@@ -16,13 +16,13 @@ sets.forEach(set => {
       ${setItems.map(i => `
         <li>
           ${i.name} ${i.size ? `- Taglia: ${i.size}` : ''} ${i.color ? `- Colore: ${i.color}` : ''}
+          ${i.notes ? `<br><small>${i.notes}</small>` : ''}
           <br>
            ${i.links.length === 1 
             ? `<a href="${i.links[0].url}" target="_blank">${i.links[0].label}</a>` 
             : `<table style="margin-top:5px;">
                  ${i.links.map(l => `<tr><td><a href="${l.url}" target="_blank">${l.label}</a></td></tr>`).join('')}
                </table>`}
-          ${i.notes ? `<br><small>${i.notes}</small>` : ''}
         </li>
       `).join('')}
     </ul>
@@ -45,6 +45,7 @@ singleItems.forEach(i => {
     <h3>${i.name} - ${i.price} €</h3>
     ${i.size ? `<p>Taglia: ${i.size}</p>` : ''}
     ${i.color ? `<p>Colore: ${i.color}</p>` : ''}
+    ${i.notes ? `<p><small>${i.notes}</small></p>` : ''}
     <p>
       ${i.links.length === 1 
       ? `<a href="${i.links[0].url}" target="_blank">${i.links[0].label}</a>` 
@@ -53,7 +54,6 @@ singleItems.forEach(i => {
      </table>`}
 
     </p>
-    ${i.notes ? `<p><small>${i.notes}</small></p>` : ''}
   `;
 
   singlesContainer.appendChild(itemDiv);
