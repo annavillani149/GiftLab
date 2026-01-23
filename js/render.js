@@ -17,7 +17,11 @@ sets.forEach(set => {
         <li>
           ${i.name} ${i.size ? `- Taglia: ${i.size}` : ''} ${i.color ? `- Colore: ${i.color}` : ''}
           <br>
-          ${i.links.map(l => `<a href="${l}" target="_blank">Acquista</a>`).join(' | ')}
+           ${i.links.length === 1 
+            ? `<a href="${i.links[0].url}" target="_blank">Acquista</a>` 
+            : `<table style="margin-top:5px;">
+                 ${i.links.map(l => `<tr><td><a href="${l.url}" target="_blank">${l.label}</a></td></tr>`).join('')}
+               </table>`}
           ${i.notes ? `<br><small>${i.notes}</small>` : ''}
         </li>
       `).join('')}
