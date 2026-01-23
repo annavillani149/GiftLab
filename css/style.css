@@ -1,4 +1,134 @@
-body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
-h1 { color: #333; }
-.set { background: #fff; padding: 10px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-ul { padding-left: 20px; }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+/* --- Set --- */
+.set {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.set:hover {
+  transform: translateY(-2px);
+}
+
+.set h2 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.set ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.set li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.set li:last-child {
+  border-bottom: none;
+}
+
+.set a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6c5ce7;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  margin-top: 4px;
+}
+
+.set a:hover {
+  background-color: #4834d4;
+}
+
+/* --- Item singoli --- */
+.single-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: transform 0.2s;
+}
+
+.single-item:hover {
+  transform: translateY(-1px);
+}
+
+.single-item h3 {
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.single-item p {
+  margin: 3px 0;
+}
+
+.single-item a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00b894;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  margin-top: 4px;
+}
+
+.single-item a:hover {
+  background-color: #019875;
+}
+
+/* --- Tabelle link multipli --- */
+table {
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+td {
+  padding: 2px 0;
+}
+
+td a {
+  background-color: #fd79a8;
+}
+
+td a:hover {
+  background-color: #d6306e;
+}
+
+/* --- Titoli sezioni --- */
+h2, h3 {
+  font-weight: 600;
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  .set, .single-item {
+    padding: 15px;
+  }
+
+  a {
+    font-size: 0.85em;
+    padding: 3px 8px;
+  }
+}
