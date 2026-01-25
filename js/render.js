@@ -45,9 +45,6 @@ sets.forEach(set => {
     return;
   }
 
-    if (filteredItems.length === 0) return; // nessun item nel set corrispondente
-
-
   setDiv.innerHTML = `
     <h2>${set.title} (~${totalSetPrice} €)</h2>
     <ul>
