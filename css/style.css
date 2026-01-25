@@ -121,14 +121,81 @@ h2, h3 {
   font-weight: 600;
 }
 
+.set h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.set h2::before {
+  content: "🎁";
+}
+
+table {
+  width: 100%;
+}
+
+td a {
+  display: inline-block;
+  width: fit-content;
+  margin-top: 4px;
+}
+
+.set:hover,
+.single-item:hover {
+  box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+
+
 /* --- Responsive --- */
 @media (max-width: 600px) {
-  .set, .single-item {
-    padding: 15px;
+  #filters {
+    flex-direction: column;
+    align-items: stretch;
   }
 
-  a {
-    font-size: 0.85em;
-    padding: 3px 8px;
+  #filters label {
+    margin-bottom: 4px;
   }
 }
+
+
+/* --- Filtri --- */
+#filters {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  padding: 15px 20px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#filters label {
+  font-size: 0.85em;
+  color: #555;
+  margin-right: 6px;
+}
+
+#filters select,
+#filters input {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 0.9em;
+  background: #fafafa;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#filters select:focus,
+#filters input:focus {
+  outline: none;
+  border-color: #6c5ce7;
+  box-shadow: 0 0 0 2px rgba(108,92,231,0.15);
+}
+
