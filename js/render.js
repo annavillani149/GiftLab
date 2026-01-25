@@ -31,17 +31,25 @@ sets.forEach(set => {
 
   const setItems = set.itemIds.map(id => items.find(i => i.id === id));
 
-  // Filtra item nel set in base ai criteri
-    const filteredItems = setItems.filter(i => 
-      (selectedCategory === "all" || i.category === selectedCategory) &&
-      i.price <= maxPrice
-    );
+ const totalSetPrice = setItems.reduce((sum, i) => sum + i.price, 0);
+
+  // filtro per prezzo (sul set intero)
+  if (totalSetPrice > maxPrice) return;
+
+  // filtro per categoria:
+  // il set passa se ALMENO un item è della categoria scelta
+  if (
+    selectedCategory !== "all" &&
+    !setItems.some(i => i.category === selectedCategory)
+  ) {
+    return;
+  }
 
     if (filteredItems.length === 0) return; // nessun item nel set corrispondente
 
 
   setDiv.innerHTML = `
-    <h2>${set.title} (~${setItems.reduce((sum,i)=>sum+i.price,0)} €)</h2>
+    <h2>${set.title} (~${totalSetPrice)} €)</h2>
     <ul>
       ${setItems.map(i => `
         <li>
