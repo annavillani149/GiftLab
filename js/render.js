@@ -93,6 +93,8 @@ singleItems.forEach(i => {
   singlesContainer.appendChild(itemDiv);
 });
 
+}
+
 // --- Event listeners filtri ---
 categoryFilter.addEventListener("change", renderWishlist);
 priceFilter.addEventListener("input", renderWishlist);
