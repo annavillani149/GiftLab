@@ -49,11 +49,14 @@ sets.forEach(set => {
 
 
   setDiv.innerHTML = `
-    <h2>${set.title} (~${totalSetPrice)} €)</h2>
+    <h2>${set.title} (~${totalSetPrice} €)</h2>
     <ul>
       ${setItems.map(i => `
         <li>
-          ${i.name} ${i.size ? `- Taglia: ${i.size}` : ''} ${i.color ? `- Colore: ${i.color}` : ''}
+          ${i.name} 
+          ${i.size ? `- Taglia: ${i.size}` : ''} 
+          ${i.color ? `- Colore: ${i.color} -` : ''}
+          ${i.price}
           ${i.notes ? `<br><small>${i.notes}</small>` : ''}
           <br>
            ${i.links.length === 1 
