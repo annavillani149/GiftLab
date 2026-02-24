@@ -259,7 +259,7 @@ export const items = [
   links: [{url: "https://www.amazon.it/Personalizzato-Goffratrice-Personalizzata-Biblioteche-Scegliere/dp/B0FY2XMDK7/ref=sr_1_7?crid=35AJW87AO96VN&dib=eyJ2IjoiMSJ9.YR8stgdZIJoqU-BiB1kzQx08epEDirUJQausSP298l1uIUJ3VBf097hVy_2UDzihEoLV7KM7zTAPUuokc9ggPWtHhOLoGwPeNT5YKtyFCetleoQgYtgWksyVtfCJie_Qxhy-dMGrOQFgWWu6WiV3e7V_SfnT7338krlLSYJb7T-DZ2F67j--icp7tDQtS6_emmQqOLtyAiyBtPYx1N69bNqyVX-Jw8CEEAcRYGG7Fl0hYp0Yt-4Yd84VxFT7b81ZmCJuiByr_gDKRlsNyRyUn7d0owqdOijjzaOkNCSk5j4.wf2TtzsrJzyKeTnxCwfb6pOfHiRGPKQaaiI1yI_ZrJY&dib_tag=se&keywords=timbro+libri+personalizzato&qid=1771942623&sprefix=timbro+li%2Caps%2C280&sr=8-7", label : "Amazon"}],
   size: null,
   color: "Inchiostro marrone",
-  notes: "Design JC-11, "From the library of"",
+  notes: "Design JC-11, 'From the library of'",
   }
 ];
 
