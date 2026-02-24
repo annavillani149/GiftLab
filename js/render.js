@@ -88,6 +88,7 @@ singleItems.forEach(i => {
   itemDiv.className = "single-item";
 
   itemDiv.innerHTML = `
+  <div class="item-row">
     <div class="item-info">
     <h3>
     ${i.name} - ${i.price} €</h3>
@@ -101,9 +102,10 @@ singleItems.forEach(i => {
       ${i.links.map(l => `<tr><td><a href="${l.url}" target="_blank">${l.label}</a></td></tr>`).join('')}
      </table>`}
     </p>
+   </div>
 
      ${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
-     </div>
+ </div>
   `;
 
   singlesContainer.appendChild(itemDiv);
