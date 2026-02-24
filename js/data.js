@@ -147,6 +147,61 @@ export const items = [
   size: null,
   color: "dorato",
   notes: "Gioiello venduto singolarmente",
+  },
+
+  {
+  id: "braccialerigidogoccia",
+  name: "Bracciale rigido contrarié con goccia",
+  price: 25,
+  category: "gioielli",
+  links: [{url: "https://www.marlu.it/it/bracciali/2169-32433-bracciale-rigido-contrarie-con-goccia.html?_gl=1*12pbmxl*_up*MQ..*_ga*OTM4Njc1MDk5LjE3NjY5NjA1NDA.*_ga_8ETQBCRR5Q*czE3NjY5NjA1MzkkbzEkZzEkdDE3NjY5NjI1MDYkajYwJGwwJGgw#/177-materiale-pvd_oro", label : "Marlù"}],
+  size: null,
+  color: "dorato",
+  notes: null,
+  },
+
+  {
+  id: "setsmaltitonalombre",
+  name: "Set di smalti per unghie",
+  price: 28,
+  category: "smalti",
+  links: [{url: "https://www.amazon.it/Nails-Inc-Keep-Tonal-Quad/dp/B084BK25H8?th=1", label : "Amazon"}],
+  size: null,
+  color: "Tonal Ombre",
+  notes: null,
+  },
+
+  {
+  id: "basetopopi",
+  name: "Base e top coat per unghie",
+  price: 32,
+  category: "smalti",
+  links: [{url: "https://www.notino.it/opi/infinite-shine-base-e-top-coat-per-unghie/p-16242225/", label : "Notino"}],
+  size: null,
+  color: null,
+  notes: null,
+  },
+
+  {
+  id: "orecchinolobocuoremadreperla",
+  name: "Orecchino cuore con madreperla",
+  price: 14,
+  category: "gioielli",
+  links: [{url: "https://www.marlu.it/it/orecchini/539-1945-orecchino-cuore-con-madreperla.html?_gl=1*bnqlrs*_up*MQ..*_ga*MjA0MzMyMDE0NS4xNzY2OTYyNTg5*_ga_8ETQBCRR5Q*czE3NjY5NjI1ODkkbzEkZzEkdDE3NjY5NjI3OTckajYwJGwwJGgw#/169-colore-bianco/177-materiale-pvd_oro", label : "Marlù"}],
+  size: null,
+  color: "dorato",
+  notes: null,
+  },
+
+  {
+  id: "combonars",
+  name: "Combo labbra Line&Shine",
+  price: 22,
+  category: "makeup",
+  links: [{url: "https://www.notino.it/nars/line-shine-confezione-regalo-per-le-labbra-7095600/p-16329804/", label : "Notino"}],
+  size: null,
+  color: null,
+  notes: null,
   }
 ];
 
