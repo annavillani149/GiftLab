@@ -50,6 +50,7 @@ sets.forEach(set => {
     <ul>
       ${setItems.map(i => `
         <li>
+          ${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
           ${i.name} 
           ${i.size ? `- Taglia: ${i.size}` : ''} 
           ${i.color ? `- Colore: ${i.color} -` : ''}
@@ -84,7 +85,8 @@ singleItems.forEach(i => {
   itemDiv.className = "single-item";
 
   itemDiv.innerHTML = `
-    <h3>${i.name} - ${i.price} €</h3>
+    <h3>${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
+    ${i.name} - ${i.price} €</h3>
     ${i.size ? `<p>Taglia: ${i.size}</p>` : ''}
     ${i.color ? `<p>Colore: ${i.color}</p>` : ''}
     ${i.notes ? `<p><small>${i.notes}</small></p>` : ''}
