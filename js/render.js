@@ -53,7 +53,7 @@ sets.forEach(set => {
           ${i.name} 
           ${i.size ? `- Taglia: ${i.size}` : ''} 
           ${i.color ? `- Colore: ${i.color} -` : ''}
-          ${i.price}
+          ${i.price} €
           ${i.notes ? `<br><small>${i.notes}</small>` : ''}
           <br>
            ${i.links.length === 1 
