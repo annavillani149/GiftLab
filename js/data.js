@@ -11,6 +11,7 @@ export const items = [
    color: "oro",
    notes: null,
   },
+  
   { 
     id: "orecchini1",
     name: "Orecchino a cerchio ritorto 1,5 cm",
@@ -23,6 +24,7 @@ export const items = [
     color: "oro",
     notes: "gioiello venduto singolarmente (7€x2)",
   },
+  
   {
     id: "blush",
     name: "blush elf",
@@ -35,6 +37,61 @@ export const items = [
     size: null,
     color: "copper etiquette",
     notes: null,
+  },
+
+  {
+  id: "anelloperla",
+  name: "Anello a doppia fascia con perla",
+  price: 18,
+  category: "gioielli",
+  links: ["https://www.marlu.it/it/anelli/1915-27033-anello-a-doppia-fascia-con-perla.html#/169-colore-bianco/177-materiale-pvd_oro/3891-taglia-da_15_a_19"],
+  size: "da 15 a 19",
+  color: "dorato",
+  notes: "",
+  },
+
+  {
+  id: "collanacatenaperle",
+  name: "Collana catena figaro e catena con perle bianche irregolari",
+  price: 29,
+  category: "gioielli",
+  links: ["https://www.marlu.it/it/collane/1926-27054-collana-catena-figaro-e-catena-con-perle-bianche-irregolari.html?_gl=1*1bl963f*_up*MQ..*_ga*OTM4Njc1MDk5LjE3NjY5NjA1NDA.*_ga_8ETQBCRR5Q*czE3NjY5NjA1MzkkbzEkZzEkdDE3NjY5NjE3NDIkajYwJGwwJGgw#/169-colore-bianco/177-materiale-pvd_oro"],
+  size: "",
+  color: "dorato",
+  notes: "",
+  },
+
+  {
+  id: "collanamedagliettasole",
+  name: "Collana medaglietta sole pendente con zirconi",
+  price: 23,
+  category: "gioielli",
+  links: ["https://www.marlu.it/it/collane/923-collana-medaglietta-sole-pendente-con-zirconi.html?_gl=1*py9yx2*_up*MQ..*_ga*OTM4Njc1MDk5LjE3NjY5NjA1NDA.*_ga_8ETQBCRR5Q*czE3NjY5NjA1MzkkbzEkZzEkdDE3NjY5NjE3NDIkajYwJGwwJGgw"],
+  size: "",
+  color: "",
+  notes: "",
+  },
+
+  {
+  id: "collarinorigido",
+  name: "Collarino rigido",
+  price: 29,
+  category: "gioielli",
+  links: ["https://www.marlu.it/it/collane/340-1189-collarino-rigido.html?_gl=1*1l274do*_up*MQ..*_ga*OTM4Njc1MDk5LjE3NjY5NjA1NDA.*_ga_8ETQBCRR5Q*czE3NjY5NjA1MzkkbzEkZzEkdDE3NjY5NjE3NDIkajYwJGwwJGgw#/160-colore-oro/177-materiale-pvd_oro"],
+  size: "",
+  color: "",
+  notes: "",
+  },
+
+  {
+  id: "braccialesole",
+  name: "Bracciale sole",
+  price: 39,
+  category: "gioielli",
+  links: ["https://www.marlu.it/it/bracciali/742-2572-bracciale-sole.html?_gl=1*1tfflnu*_up*MQ..*_ga*OTM4Njc1MDk5LjE3NjY5NjA1NDA.*_ga_8ETQBCRR5Q*czE3NjY5NjA1MzkkbzEkZzEkdDE3NjY5NjI1MDYkajYwJGwwJGgw#/88-taglia-regolabile_da_14_a_18_cm/169-colore-bianco/177-materiale-pvd_oro"],
+  size: "",
+  color: "dorato",
+  notes: "",
   }
 ];
 
