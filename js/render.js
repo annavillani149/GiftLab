@@ -49,9 +49,9 @@ sets.forEach(set => {
     <h2>${set.title} (~${totalSetPrice} €)</h2>
     <ul>
       ${setItems.map(i => `
-        <li>
-          ${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
-          ${i.name} 
+        <li class="item-row">
+         <div class="item-info">
+          <strong>${i.name}</strong>
           ${i.size ? `- Taglia: ${i.size}` : ''} 
           ${i.color ? `- Colore: ${i.color} -` : ''}
           ${i.price} €
@@ -62,6 +62,9 @@ sets.forEach(set => {
             : `<table style="margin-top:5px;">
                  ${i.links.map(l => `<tr><td><a href="${l.url}" target="_blank">${l.label}</a></td></tr>`).join('')}
                </table>`}
+            </div>
+
+            ${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
         </li>
       `).join('')}
     </ul>
@@ -85,6 +88,7 @@ singleItems.forEach(i => {
   itemDiv.className = "single-item";
 
   itemDiv.innerHTML = `
+    <div class="item-info">
     <h3>${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
     ${i.name} - ${i.price} €</h3>
     ${i.size ? `<p>Taglia: ${i.size}</p>` : ''}
@@ -96,8 +100,10 @@ singleItems.forEach(i => {
       : `<table style="margin-top:5px;">
       ${i.links.map(l => `<tr><td><a href="${l.url}" target="_blank">${l.label}</a></td></tr>`).join('')}
      </table>`}
-
     </p>
+
+     ${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
+     </div>
   `;
 
   singlesContainer.appendChild(itemDiv);
