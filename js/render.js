@@ -89,7 +89,7 @@ singleItems.forEach(i => {
 
   itemDiv.innerHTML = `
     <div class="item-info">
-    <h3>${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
+    <h3>
     ${i.name} - ${i.price} €</h3>
     ${i.size ? `<p>Taglia: ${i.size}</p>` : ''}
     ${i.color ? `<p>Colore: ${i.color}</p>` : ''}
