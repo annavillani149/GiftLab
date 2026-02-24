@@ -270,6 +270,20 @@ export const items = [
   size: null,
   color: "Inchiostro marrone",
   notes: "Design JC-11, 'From the library of'",
+  },
+
+  {
+  id: "pillowtalk",
+  name: "Mini Pillow Talk Lip kit",
+  price: 28,
+  category: "makeup",
+  links: [
+    {url: "https://www.sephora.it/p/pillow-talk-duo-set---cofanetto-make-up-labbra-559618.html?utm_source=google&utm_medium=cpc&utm_campaign=SephoraEUR_SR_ITA_CategoriaMakeUp_MIX_OTH_OGOING_EC_SHOP_GSHO_CRD_ITA_EUR_NAPP_PMaxCSSNonBrand&utm_term=&gad_source=1&gad_campaignid=20926835994&gbraid=0AAAAADqvCoyOpoJHk-GjxVyb7t_6kPQTR&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3DsNWTL30fZnut_AkbA50vY4vUqFbMHw4gX-99cLWZJqqUzCx7YU9IaAlyjEALw_wcB", label : "Sephora"},
+    {url: "https://www.charlottetilbury.com/it/product/mini-pillow-talk-lip-kit-medium?gclsrc=aw.ds&gad_source=1&gad_campaignid=17489928166&gbraid=0AAAAADiVjzB1u1Qr5A1jjawfn8GDegZXA&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3B0e2VRMo90zJtV_lPAVA672LijpLaIotKgyGkVOUr-xhxZui8Nwk8aAiJwEALw_wcB", label: "Charlotte Tilbury"}
+  ],
+  size: null,
+  color: "Pillow Talk Medium",
+  notes: null,
   }
 ];
 
