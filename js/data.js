@@ -202,6 +202,64 @@ export const items = [
   size: null,
   color: null,
   notes: null,
+  },
+
+  {
+  id: "profumopepejeans",
+  name: "Addictive Indulgence For Her ",
+  price: 33,
+  category: "profumi",
+  links: [{url: "https://www.amazon.it/dp/B0FG879NM9?tag=fragrantic005-21&linkCode=osi&th=1", label : "Amazon"}],
+  size: "80 ml",
+  color: null,
+  notes: null,
+  },
+
+  {
+  id: "profumooliomonoi",
+  name: "Monoi de Tahiti - Eau de toilette",
+  price: 11.50,
+  category: "profumi",
+  links: [{url: "https://www.leerbedisara.it/catalogo/solari-l91/monoi-tahiti-eau-toilette?utm_source=chatgpt.com%20e%20questo%20per%20l%27estate", label : "Acquista"}],
+  size: "10 ml",
+  color: null,
+  notes: null,
+  },
+
+  {
+  id: "mieloudparfum",
+  name: "Mieloud - Eau de Parfum",
+  price: 25,
+  category: "profumi",
+  links: [
+    {url: "https://www.ideabellezza.it/mieloud-eau-de-parfum/", label : "IdeaBellezza"},
+    {url: "https://www.pinalli.it/products/profumi-mieloud-3lp0000000026", label : "Pinalli"}
+  ],
+  size: "100 ml",
+  color: null,
+  notes: null,
+  },
+
+  {
+  id: "collanarosa",
+  name: "Collana con rosa de La Bella e la Bestia",
+  price: 50,
+  category: "gioielli",
+  links: [{url: "https://www.etsy.com/it/listing/1813789314/collana-con-rosa-la-bella-e-la-bestia?ref=shop_home_active_10&pro=1&frs=1&sts=1&logging_key=77fa442a0077ea00901b5b06affca6b0bbea7b03%3A1813789314", label : "Etsy"}],
+  size: null,
+  color: null,
+  notes: null,
+  },
+
+  {
+  id: "timbrolibri",
+  name: "Timbro autoinchiostrante personalizzato",
+  price: 15,
+  category: "oggetti",
+  links: [{url: "https://www.amazon.it/Personalizzato-Goffratrice-Personalizzata-Biblioteche-Scegliere/dp/B0FY2XMDK7/ref=sr_1_7?crid=35AJW87AO96VN&dib=eyJ2IjoiMSJ9.YR8stgdZIJoqU-BiB1kzQx08epEDirUJQausSP298l1uIUJ3VBf097hVy_2UDzihEoLV7KM7zTAPUuokc9ggPWtHhOLoGwPeNT5YKtyFCetleoQgYtgWksyVtfCJie_Qxhy-dMGrOQFgWWu6WiV3e7V_SfnT7338krlLSYJb7T-DZ2F67j--icp7tDQtS6_emmQqOLtyAiyBtPYx1N69bNqyVX-Jw8CEEAcRYGG7Fl0hYp0Yt-4Yd84VxFT7b81ZmCJuiByr_gDKRlsNyRyUn7d0owqdOijjzaOkNCSk5j4.wf2TtzsrJzyKeTnxCwfb6pOfHiRGPKQaaiI1yI_ZrJY&dib_tag=se&keywords=timbro+libri+personalizzato&qid=1771942623&sprefix=timbro+li%2Caps%2C280&sr=8-7", label : "Amazon"}],
+  size: null,
+  color: "Inchiostro marrone",
+  notes: "Design JC-11, "From the library of"",
   }
 ];
 
