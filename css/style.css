@@ -160,16 +160,18 @@ td a {
 
 
 .item-image {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
+  max-width: 180px;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   border-radius: 14px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   flex-shrink: 0;
 }
 
 .item-row {
-  align-items: stretch;
+  align-items: center;
 }
 
 .item-image {
@@ -180,11 +182,13 @@ td a {
 @media (max-width: 600px) {
   .item-row {
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .item-image {
-    width: 100%;
-    height: 180px;
+    max-width: 100%;
+    max-height: none;
+    margin-top: 10px;
   }
 }
 
