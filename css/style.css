@@ -160,12 +160,20 @@ td a {
 
 
 .item-image {
-  width: 110px;
-  height: 110px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.12);
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   flex-shrink: 0;
+}
+
+.item-row {
+  align-items: stretch;
+}
+
+.item-image {
+  margin-top: 4px;
 }
 
 
@@ -176,7 +184,7 @@ td a {
 
   .item-image {
     width: 100%;
-    height: 160px;
+    height: 180px;
   }
 }
 
