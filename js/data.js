@@ -131,6 +131,7 @@ export const items = [
   name: "Orecchino multindosso consiglia con perla e perline turchesi",
   price: 36,
   category: "gioielli",
+  image: "https://marlu-18ddd.kxcdn.com/23201-square_large_default/orecchino-multindosso-conchiglia-con-perla-e-perline-turchesi.jpg",
   links: [{url: "https://www.marlu.it/it/orecchini/1821-24323-orecchino-multindosso-conchiglia-con-perla-e-perline-turchesi.html?_gl=1*12sp8j1*_up*MQ..*_ga*MjA0MzMyMDE0NS4xNzY2OTYyNTg5*_ga_8ETQBCRR5Q*czE3NjY5NjI1ODkkbzEkZzEkdDE3NjY5NjI3OTckajYwJGwwJGgw#/169-colore-bianco/177-materiale-pvd_oro", label : "Marlù"}],
   size: null,
   color: "dorato",
@@ -142,6 +143,7 @@ export const items = [
   name: "Orecchino a cerchio ritorto 1,5 cm",
   price: 14,
   category: "gioielli",
+  image: "https://marlu-18ddd.kxcdn.com/26467-square_large_default/orecchino-a-cerchio-ritorto-15-cm.jpg",
   links: [{url: "https://www.marlu.it/it/orecchini/2082-31072-orecchino-a-cerchio-ritorto-15-cm.html?_gl=1*yxawkw*_up*MQ..*_ga*MjA0MzMyMDE0NS4xNzY2OTYyNTg5*_ga_8ETQBCRR5Q*czE3NjY5NjI1ODkkbzEkZzEkdDE3NjY5NjI3OTckajYwJGwwJGgw#/160-colore-oro/177-materiale-pvd_oro/5757-taglia-diametro_15_cm", label : "Marlù"}],
   size: null,
   color: "dorato",
@@ -153,6 +155,7 @@ export const items = [
   name: "Orecchino a lobo stella",
   price: 12,
   category: "gioielli",
+  image: "https://marlu-18ddd.kxcdn.com/27529-square_large_default/orecchino-a-lobo-stella.jpg",
   links: [{url: "https://www.marlu.it/it/orecchini/2211-33237-orecchino-a-lobo-stella.html?_gl=1*yxawkw*_up*MQ..*_ga*MjA0MzMyMDE0NS4xNzY2OTYyNTg5*_ga_8ETQBCRR5Q*czE3NjY5NjI1ODkkbzEkZzEkdDE3NjY5NjI3OTckajYwJGwwJGgw#/177-materiale-pvd_oro", label : "Marlù"}],
   size: null,
   color: "dorato",
@@ -164,6 +167,7 @@ export const items = [
   name: "Bracciale rigido contrarié con goccia",
   price: 25,
   category: "gioielli",
+  image:"https://marlu-18ddd.kxcdn.com/27146-square_large_default/bracciale-rigido-contrarie-con-goccia.jpg",
   links: [{url: "https://www.marlu.it/it/bracciali/2169-32433-bracciale-rigido-contrarie-con-goccia.html?_gl=1*12pbmxl*_up*MQ..*_ga*OTM4Njc1MDk5LjE3NjY5NjA1NDA.*_ga_8ETQBCRR5Q*czE3NjY5NjA1MzkkbzEkZzEkdDE3NjY5NjI1MDYkajYwJGwwJGgw#/177-materiale-pvd_oro", label : "Marlù"}],
   size: null,
   color: "dorato",
@@ -175,6 +179,7 @@ export const items = [
   name: "Set di smalti per unghie",
   price: 28,
   category: "smalti",
+  image:"https://m.media-amazon.com/images/I/718Zvngd07L._AC_SX679_.jpg",
   links: [{url: "https://www.amazon.it/Nails-Inc-Keep-Tonal-Quad/dp/B084BK25H8?th=1", label : "Amazon"}],
   size: null,
   color: "Tonal Ombre",
@@ -186,6 +191,7 @@ export const items = [
   name: "Base e top coat per unghie",
   price: 32,
   category: "smalti",
+  image: "https://cdn.notinoimg.com/detail_main_mq/opi/4064665115024_01/infinite-shine___240822.jpg",
   links: [{url: "https://www.notino.it/opi/infinite-shine-base-e-top-coat-per-unghie/p-16242225/", label : "Notino"}],
   size: null,
   color: null,
@@ -197,6 +203,7 @@ export const items = [
   name: "Orecchino cuore con madreperla",
   price: 14,
   category: "gioielli",
+  image: "https://marlu-18ddd.kxcdn.com/2943-square_large_default/orecchino-cuore-con-madreperla.jpg",
   links: [{url: "https://www.marlu.it/it/orecchini/539-1945-orecchino-cuore-con-madreperla.html?_gl=1*bnqlrs*_up*MQ..*_ga*MjA0MzMyMDE0NS4xNzY2OTYyNTg5*_ga_8ETQBCRR5Q*czE3NjY5NjI1ODkkbzEkZzEkdDE3NjY5NjI3OTckajYwJGwwJGgw#/169-colore-bianco/177-materiale-pvd_oro", label : "Marlù"}],
   size: null,
   color: "dorato",
@@ -208,6 +215,7 @@ export const items = [
   name: "Combo labbra Line&Shine",
   price: 22,
   category: "makeup",
+  image: "https://cdn.notinoimg.com/detail_main_mq/nars/194251160856_01/line-shine___251006.jpg",
   links: [{url: "https://www.notino.it/nars/line-shine-confezione-regalo-per-le-labbra-7095600/p-16329804/", label : "Notino"}],
   size: null,
   color: null,
@@ -219,10 +227,11 @@ export const items = [
   name: "Addictive Indulgence For Her ",
   price: 33,
   category: "profumi",
+  image: "https://m.media-amazon.com/images/I/41Cs-Mnoi+L._AC_SL1000_.jpg",
   links: [{url: "https://www.amazon.it/dp/B0FG879NM9?tag=fragrantic005-21&linkCode=osi&th=1", label : "Amazon"}],
   size: "80 ml",
   color: null,
-  notes: null,
+  notes: "Profumo invernale",
   },
 
   {
@@ -230,10 +239,11 @@ export const items = [
   name: "Monoi de Tahiti - Eau de toilette",
   price: 11.50,
   category: "profumi",
+  image: "https://www.leerbedisara.it/upld/catalogo/small/1712675341997_edp10mlmonoidetahiti09042024170924724.jpg",
   links: [{url: "https://www.leerbedisara.it/catalogo/solari-l91/monoi-tahiti-eau-toilette?utm_source=chatgpt.com%20e%20questo%20per%20l%27estate", label : "Acquista"}],
   size: "10 ml",
   color: null,
-  notes: null,
+  notes: "Ideale per l'estate",
   },
 
   {
@@ -241,24 +251,14 @@ export const items = [
   name: "Mieloud - Eau de Parfum",
   price: 25,
   category: "profumi",
+  image: "https://cdn11.bigcommerce.com/s-u56wefuzfy/products/13315/images/57761/8053629625026__52122.1738688389.1280.1280.jpg?c=1".
   links: [
     {url: "https://www.ideabellezza.it/mieloud-eau-de-parfum/", label : "IdeaBellezza"},
     {url: "https://www.pinalli.it/products/profumi-mieloud-3lp0000000026", label : "Pinalli"}
   ],
   size: "100 ml",
   color: null,
-  notes: null,
-  },
-
-  {
-  id: "collanarosa",
-  name: "Collana con rosa de La Bella e la Bestia",
-  price: 50,
-  category: "gioielli",
-  links: [{url: "https://www.etsy.com/it/listing/1813789314/collana-con-rosa-la-bella-e-la-bestia?ref=shop_home_active_10&pro=1&frs=1&sts=1&logging_key=77fa442a0077ea00901b5b06affca6b0bbea7b03%3A1813789314", label : "Etsy"}],
-  size: null,
-  color: null,
-  notes: null,
+  notes: "Profumo 4 stagioni",
   },
 
   {
@@ -266,6 +266,7 @@ export const items = [
   name: "Timbro autoinchiostrante personalizzato",
   price: 15,
   category: "oggetti",
+  image: null,
   links: [{url: "https://www.amazon.it/Personalizzato-Goffratrice-Personalizzata-Biblioteche-Scegliere/dp/B0FY2XMDK7/ref=sr_1_7?crid=35AJW87AO96VN&dib=eyJ2IjoiMSJ9.YR8stgdZIJoqU-BiB1kzQx08epEDirUJQausSP298l1uIUJ3VBf097hVy_2UDzihEoLV7KM7zTAPUuokc9ggPWtHhOLoGwPeNT5YKtyFCetleoQgYtgWksyVtfCJie_Qxhy-dMGrOQFgWWu6WiV3e7V_SfnT7338krlLSYJb7T-DZ2F67j--icp7tDQtS6_emmQqOLtyAiyBtPYx1N69bNqyVX-Jw8CEEAcRYGG7Fl0hYp0Yt-4Yd84VxFT7b81ZmCJuiByr_gDKRlsNyRyUn7d0owqdOijjzaOkNCSk5j4.wf2TtzsrJzyKeTnxCwfb6pOfHiRGPKQaaiI1yI_ZrJY&dib_tag=se&keywords=timbro+libri+personalizzato&qid=1771942623&sprefix=timbro+li%2Caps%2C280&sr=8-7", label : "Amazon"}],
   size: null,
   color: "Inchiostro marrone",
@@ -277,6 +278,7 @@ export const items = [
   name: "Mini Pillow Talk Lip kit",
   price: 28,
   category: "makeup",
+  image: "https://media.sephora.eu/content/dam/digital/pim/published/C/CHARLOTTE_TILBURY/559618/241092-media_swatch.jpg?scaleWidth=undefined&scaleHeight=undefined&scaleMode=undefined",
   links: [
     {url: "https://www.sephora.it/p/pillow-talk-duo-set---cofanetto-make-up-labbra-559618.html?utm_source=google&utm_medium=cpc&utm_campaign=SephoraEUR_SR_ITA_CategoriaMakeUp_MIX_OTH_OGOING_EC_SHOP_GSHO_CRD_ITA_EUR_NAPP_PMaxCSSNonBrand&utm_term=&gad_source=1&gad_campaignid=20926835994&gbraid=0AAAAADqvCoyOpoJHk-GjxVyb7t_6kPQTR&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3DsNWTL30fZnut_AkbA50vY4vUqFbMHw4gX-99cLWZJqqUzCx7YU9IaAlyjEALw_wcB", label : "Sephora"},
     {url: "https://www.charlottetilbury.com/it/product/mini-pillow-talk-lip-kit-medium?gclsrc=aw.ds&gad_source=1&gad_campaignid=17489928166&gbraid=0AAAAADiVjzB1u1Qr5A1jjawfn8GDegZXA&gclid=Cj0KCQiAtfXMBhDzARIsAJ0jp3B0e2VRMo90zJtV_lPAVA672LijpLaIotKgyGkVOUr-xhxZui8Nwk8aAiJwEALw_wcB", label: "Charlotte Tilbury"}
