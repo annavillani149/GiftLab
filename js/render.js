@@ -64,7 +64,10 @@ sets.forEach(set => {
                </table>`}
             </div>
 
+            <div class="image-wrapper">
             ${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
+            <div class="image-preview">
+            ${i.image ? `<img src="${i.image}" alt="${i.name}">` : ''}
         </li>
       `).join('')}
     </ul>
@@ -104,7 +107,10 @@ singleItems.forEach(i => {
     </p>
    </div>
 
-     ${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
+    <div class="image-wrapper">
+    ${i.image ? `<img src="${i.image}" alt="${i.name}" class="item-image">` : ''}
+    <div class="image-preview">
+    ${i.image ? `<img src="${i.image}" alt="${i.name}">` : ''}
  </div>
   `;
 
