@@ -251,7 +251,7 @@ export const items = [
   name: "Mieloud - Eau de Parfum",
   price: 25,
   category: "profumi",
-  image: "https://cdn11.bigcommerce.com/s-u56wefuzfy/products/13315/images/57761/8053629625026__52122.1738688389.1280.1280.jpg?c=1".
+  image: "https://cdn11.bigcommerce.com/s-u56wefuzfy/products/13315/images/57761/8053629625026__52122.1738688389.1280.1280.jpg?c=1",
   links: [
     {url: "https://www.ideabellezza.it/mieloud-eau-de-parfum/", label : "IdeaBellezza"},
     {url: "https://www.pinalli.it/products/profumi-mieloud-3lp0000000026", label : "Pinalli"}
