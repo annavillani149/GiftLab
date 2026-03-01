@@ -286,6 +286,54 @@ export const items = [
   size: null,
   color: "Pillow Talk Medium",
   notes: null,
+  },
+
+  {
+  id: "diegolipkit",
+  name: "Lip contour kit (rossetto + matita)",
+  price: 38,
+  category: "makeup",
+  image: "https://media.douglas.it/medias/A8W7Yx1061397-3-dgl-IT.jpg?context=bWFzdGVyfGltYWdlc3wxMzc4NTB8aW1hZ2UvanBlZ3xhRFZtTDJoa01DOHlOelU0TURZeE16ZzROVGs0TWk5Qk9GYzNXWGd4TURZeE16azNYek5mWkdkc0xVbFVMbXB3Wnd8NzkzZGU3NzBiMTU1YWZlNzk4NTc0MzA1MDBhZDQ3OTczNjJkY2Q5MDM1YjcyZDdiOTViYzNmYjljMWMyZjNkZA&grid=true&imdensity=1&imwidth=741",
+  links: [{url: "https://www.douglas.it/it/p/5010820006?variant=1061397", label : "Douglas"}],
+  size: null,
+  color: "504 - Gianduia",
+  notes: null,
+  },
+
+  {
+  id: "nyxbridgertonlipkit",
+  name: "Bridgerton Royal Treasures - kit per le labbra",
+  price: 19,
+  category: "makeup",
+  image: "https://cdn.notinoimg.com/detail_main_hq/nyx-professional-makeup/800897278748_02/bridgerton-royal-treasures___260112.jpg",
+  links: [{url: "https://www.notino.it/nyx-professional-makeup/bridgerton-royal-treasures-kit-per-labbra/p-16354713/", label : "Notino"}],
+  size: null,
+  color: "05",
+  notes: null,
+  },
+
+  {
+  id: "kitpennellireal1",
+  name: "Set pennelli Everyday Essentials - Real Techniques",
+  price: 25,
+  category: "makeup",
+  image: "https://media.douglas.it/medias/yqd3ej267831-1-global.png?context=bWFzdGVyfGltYWdlc3wxNzU1OTc1fGltYWdlL3BuZ3xhRGhtTDJnME9TODNNREl5T1Rnd056UXpNVGN4TUM5NWNXUXpaV295TmpjNE16RmZNVjluYkc5aVlXd3VjRzVufGQxMmUyZWE0MGFhMmY0MDA0YzY1NjVhNTYwODNmM2Q2NjQyMTdmZWM4MDYyMjc5YWRmYTliZWQ4NTc5MTg5NjU&grid=true&imdensity=1&imwidth=741",
+  links: [{url: "https://www.douglas.it/it/p/5000322099", label : "Notino"}],
+  size: null,
+  color: null,
+  notes: null,
+  },
+
+  {
+  id: "almost lipstick",
+  name: "Almost Lipstick - Clinique",
+  price: 22,
+  category: "makeup",
+  image: "https://media.douglas.it/medias/CnDxnn1240032-0-global.jpg?context=bWFzdGVyfGltYWdlc3w2MTM0N3xpbWFnZS9qcGVnfGFEZGtMMmczTUM4Mk56VXdNelUzTnpFek56RTRNaTlEYmtSNGJtNHhNalF3TURNeVh6QmZaMnh2WW1Gc0xtcHdad3w0MGFmODU1ZWIwY2M0NzRkYTMyYWU1NTE2MmM0MjM2MTY3MGM3YzlkMGIwZWY0ZTgxZDhkMjc3NzQzMDJmYzJj&grid=true&imPolicy=grayScaled&imdensity=1&imwidth=775",
+  links: [{url: "https://www.douglas.it/it/p/5011890075?variant=1240032", label : "Douglas"}],
+  size: null,
+  color: "Nude honey",
+  notes: null,
   }
 ];
 
@@ -303,6 +351,7 @@ export const sets = [
   name: "",
   price: ,
   category: "",
+  image: "",
   links: [{url: "", label : ""}],
   size: "",
   color: "",
