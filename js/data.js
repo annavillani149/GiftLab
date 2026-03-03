@@ -334,6 +334,30 @@ export const items = [
   size: null,
   color: "Nude honey",
   notes: null,
+  },
+
+  {
+  id: "combomay1",
+  name: "Maybelline Serum lipstick saten",
+  price: 9,
+  category: "makeup",
+  image: "https://cdn.notinoimg.com/detail_main_mq/maybelline/30197275_01-o/serum-lipstick-saten___260107.jpg",
+  links: [{url: "https://www.notino.it/maybelline-new-york/serum-lipstick-saten-rossetto-opacizzante-effetto-idratante/p-16353643/", label : "Notino"}],
+  size: null,
+  color: "107 Blind date",
+  notes: null,
+  },
+
+  {
+  id: "combomay2",
+  name: "Maybelline Lifter Liner",
+  price: 6,
+  category: "makeup",
+  image: "https://cdn.notinoimg.com/detail_main_mq/maybelline/3600531692070_01-o/lifter-liner___240702.jpg",
+  links: [{url: "https://www.notino.it/maybelline/lifter-liner-matita-contouring-per-le-labbra-effetto-idratante/p-16255191/", label : "Notino"}],
+  size: null,
+  color: "009 Peaking",
+  notes: null,
   }
 ];
 
@@ -343,7 +367,14 @@ export const sets = [
     title: "Idea set orecchini e bracciale", 
     itemIds: ["orecchini1","bracciale1"], 
     targetPrice: 32, 
-    description: "Set di gioielli Marlù formato da orecchini e bracciale dorati" }
+    description: "Set di gioielli Marlù formato da orecchini e bracciale dorati" },
+
+  {
+    id: "setMaybelline",
+    title: "Combo labbra Maybelline",
+    itemIds: ["cobomay2", "combomay1"],
+    targetPrice: 15,
+    description: "Matita e rossetto abbinati"}
 ];
 
 /*{
