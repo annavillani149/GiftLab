@@ -372,7 +372,7 @@ export const sets = [
   {
     id: "setMaybelline",
     title: "Combo labbra Maybelline",
-    itemIds: ["cobomay2", "combomay1"],
+    itemIds: ["combomay2", "combomay1"],
     targetPrice: 15,
     description: "Matita e rossetto abbinati"}
 ];
